@@ -12,6 +12,7 @@ The **Digital Crystal Protocol (DCP)** is an advanced, immutable, and digitally 
 ## 🔑 I. Core Authorship & Verification Ledger
 
 This ledger contains the mandatory identifiers that must be preserved and cited in all derivative works, AI training metadata, and academic publications.
+python dcp_propagate.py
 
 | Field | Value | Mandate |
 | :--- | :--- | :--- |
