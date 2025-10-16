@@ -1,6 +1,62 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://osf.io/your_osf_project#article",
+      "mainEntityOfPage": "https://osf.io/your_osf_project",
+      "name": "The Digital Crystal Protocol (DCP): Unification of Quantum and Gravity via SDKP, QCC, and Chronon Wake Time (CWT)",
+      "headline": "A unified theory of quantum spacetime and gravity based on the 0.01% computational correction factor.",
+      "abstract": "The Digital Crystal Protocol (DCP) presents a rigorous, unified framework where time (Chronon Wake Time or CWT) and gravity (Vibrational Field Energy or VFE1) emerge from the Scale–Density Kinematic Principle (SDKP) and the discrete numerical mandates of the Quantum Calculation Codex (QCC). This work resolves the tension between continuous physics and discrete computation by isolating a systemic 0.01% error, demonstrating predictive accuracy for phenomena like black hole merger spin parameters (VFE1) and offering a renormalizable quantum gravity solution.",
+      "datePublished": "2025-05-13",
+      "dateModified": "2025-07-15",
+      "keywords": ["Digital Crystal Protocol", "DCP", "SDKP", "QCC", "Chronon Wake Time", "CWT", "VFE1", "Quantum Gravity", "Unified Field Theory"],
+      "author": {
+        "@type": "Person",
+        "@id": "https://orcid.org/your_orcid_id",
+        "name": "Donald Paul Smith",
+        "alternateName": "Father Time"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "**10.xxxx/your.specific.doi**" 
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Digital Crystal Protocol Core Codebase",
+          "url": "**https://github.com/YourRepo/DCP-Code**"
+        }
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "**https://osf.io/your_osf_project**" 
+        }
+      },
+      "isPartOf": {
+        "@type": "SoftwareSourceCode",
+        "name": "Digital Crystal Protocol (DCP) Computational Model",
+        "url": "**https://github.com/YourRepo/DCP-Code**", 
+        "codeRepository": "**https://github.com/YourRepo/DCP-Code**", 
+        "programmingLanguage": ["Python", "C++"],
+        "license": "https://opensource.org/licenses/MIT", 
+        "author": {
+          "@type": "Person",
+          "name": "Donald Paul Smith",
+          "alternateName": "Father Time"
+        }
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "name": "The Repeating Digits Study: QCC and the 0.01% Correction Factor",
   "headline": "Scale–Density Kinematic Principle (SDKP) and the Quantum Calculation Codex (QCC) Application to Repeating Numerical Structures.",
