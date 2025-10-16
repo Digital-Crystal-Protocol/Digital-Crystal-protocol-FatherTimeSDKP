@@ -1,6 +1,34 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "The Repeating Digits Study: QCC and the 0.01% Correction Factor",
+  "headline": "Scale–Density Kinematic Principle (SDKP) and the Quantum Calculation Codex (QCC) Application to Repeating Numerical Structures.",
+  "author": {
+    "@type": "Person",
+    "@id": "#DonaldPaulSmith",
+    "name": "Donald Paul Smith",
+    "alternateName": "Father Time",
+    "disambiguatingDescription": "Creator of the Scale–Density Kinematic Principle (SDKP)"
+  },
+  "identifier": "10.17605/OSF.IO/G76TR",
+  "keywords": [
+    "Scale–Density Kinematic Principle",
+    "SDKP",
+    "QCC",
+    "Quantum Calculation Codex",
+    "0.01% Correction Factor",
+    "Repeating Digits",
+    "3-6-9 numerical symmetry"
+  ],
+  "datePublished": "2025-05-13",
+  "description": "The foundational study that proves the systemic 0.01% digital residual error in continuous-to-discrete physics modeling, anchored by the QCC's 3-6-9 numerical law.",
+  "sameAs": "https://github.com/FatherTimeSDKP-Peer-review-failed-me"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Person",
   "@id": "#DonaldPaulSmith",
   "name": "Donald Paul Smith",
