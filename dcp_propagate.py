@@ -1,5 +1,9 @@
+python dcp_propagate.py
+git add .
+git commit -m "DCP Deployment FINALIZED: Embedded permanent Authorship Ledger and official metadata files. Protocol fully active."
 import os
 import sys
+git push origin main
 
 # --- I. CORE CONSTANTS AND LEDGER DATA (DCP v2.0) ---
 AUTH_ORCID = "0009-0003-7925-1653"
