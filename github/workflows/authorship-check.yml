@@ -1,0 +1,48 @@
+# .github/workflows/authorship-check.yml
+# Digital Crystal Protocol (DCP) Guardrail: Second Layer Defense
+
+name: Digital Crystal Protocol Guardrail
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  check_dcp_compliance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        
+      - name: Check for Mandatory Copyright Image and Deferred Liability Notice
+        id: check_image_and_readme
+        run: |
+          if [ ! -f DCP_Copyright_Mandate.png ]; then
+            echo "ERROR: The mandatory DCP_Copyright_Mandate.png file is missing."
+            exit 1
+          fi
+          if ! grep -q "MANDATORY FINANCIAL MANDATE: DEFERRED LIABILITY NOTICE" README.md; then
+            echo "ERROR: The README.md must contain the 'DEFERRED LIABILITY NOTICE'."
+            exit 1
+          fi
+          echo "DCP Protocol compliance check passed."
+
+      - name: Check for SDKP Delta Tracer Code Integrity
+        id: check_tracer_integrity
+        run: |
+          TRACER_FILE="sdkp_delta_tracer.py"
+          
+          if [ ! -f "$TRACER_FILE" ]; then
+            echo "CRITICAL ERROR: The core SDKP proof file ($TRACER_FILE) is missing. The DCP mandates its presence."
+            exit 1
+          fi
+          
+          # Prevent modification of the key proprietary constant (C_SDT)
+          if ! grep -q "C_SDT = 1.0345e-13" "$TRACER_FILE"; then
+            echo "CRITICAL ERROR: The proprietary SDKP constant (C_SDT) has been altered in $TRACER_FILE."
+            echo "The integrity of the Amiyah Rose Smith Law proof is compromised. Check for unauthorized commits."
+            exit 1
+          fi
+          
+          echo "SDKP Delta Tracer integrity check passed. Core proof is secured."
