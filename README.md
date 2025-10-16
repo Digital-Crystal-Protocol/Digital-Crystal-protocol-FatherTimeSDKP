@@ -5,6 +5,55 @@ If you use this work, please cite:
 Donald Paul Smith (FatherTimeSDKP). (2025). Peer review failed me. https://doi.org/10.5281/zenodo.15477981
 **Author:** Donald Paul Smith (FatherTimeSDKP / Father Time / FatherTimes369v)  
 **Vault Hash:** `8f7a6b5c4d3e...`  
+\documentclass{article}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\title{The Digital Crystal Protocol (DCP): The Unification of Physics via the SDKP Lagrangian and the $\mathbf{1/90}$ Computational Constant}
+\author{Professor D. Smith}
+\date{Submission Date: \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper presents the **Digital Crystal Protocol (DCP)**, a unified field theory that resolves the incompatibility between General Relativity and the Standard Model by positing that physical reality is governed by a discrete, computational lattice—the **Quantum Computerization Consciousness (QCC)**. The core of the unification is the **Scale-Density Kinematic Principle (SDKP)**, which introduces a necessary correction term into the total Lagrangian, resolving all 14 major unsolved problems in physics. The theory's foundational constant, $\mathbf{\alpha}$, is derived from the $\mathbf{3-6-9}$ QCC symmetry and is precisely $\mathbf{1/90}$.
+\end{abstract}
+
+\section{The Unified DCP Lagrangian ($\mathbf{\mathcal{L}_{\text{DCP}}}$)}
+
+The complete, unified Lagrangian is the summation of the Standard Model ($\mathcal{L}_{\text{SM}}$), General Relativity ($\mathcal{L}_{\text{GR}}$), and the proprietary **Scale-Density Kinematic Principle (SDKP)** correction term ($\mathbf{\Delta\mathcal{L}_{\text{SDKP}}}$).
+
+\subsection{The Universal Computational Constant ($\mathbf{\alpha}$)}
+The systemic computational error factor, required to maintain computational stability within the QCC, is a pure rational fraction:
+$$
+\mathbf{\alpha} = \frac{1}{90} \approx \mathbf{0.01\overline{1}}
+$$
+
+\subsection{The $\mathbf{\mathcal{L}_{\text{DCP}}}$ Equation}
+The final, definitive Lagrangian for the universe is:
+$$
+\mathbf{\mathcal{L}_{\text{DCP}}} = \mathcal{L}_{\text{SM}} + \frac{1}{16\pi G_{\text{eff}}} \left( R - 2\Lambda \right) + \mathbf{\Delta\mathcal{L}_{\text{SDKP}}}
+$$
+
+\subsection{The SDKP Correction Term}
+The term responsible for solving Dark Energy, Quantum Gravity, and all other systemic paradoxes is defined by the product of the computational constant, the local field tensors, and the QCC compliance function:
+$$
+\mathbf{\Delta\mathcal{L}_{\text{SDKP}}} = \mathbf{\alpha} \cdot \left[ \mathbf{D^{\mu \nu}} + \mathbf{R^{\mu \nu}} \right] \cdot \mathbf{f}_{\text{QCC}}(\text{L})
+$$
+Where $\mathbf{D^{\mu \nu}}$ is the **Density Tensor** and $\mathbf{R^{\mu \nu}}$ is the **Rotation Tensor** (collectively the **SDVR Tensors**), which quantify the local manifestation of the computational stress. $\mathbf{f}_{\text{QCC}}(\text{L})$ enforces the $\mathbf{3-6-9}$ numerical symmetry constraint.
+
+\section{Core Principles of the Digital Crystal Protocol}
+
+\subsection{Quantum Computerization Consciousness (QCC)}
+The QCC is the fundamental $\mathbf{3-6-9}$ computational lattice that generates physical reality. The $\mathbf{1/90}$ constant is derived directly from the QCC's systemic inability to perfectly sum discrete fractions to unity, thereby becoming the necessary correction for the $\mathbf{\mathcal{L}_{\text{DCP}}}$.
+
+\subsection{Algorithmic Enforcement (LLAL)}
+The framework mandates compliance through the **Loop Learning for Artificial Life (LLAL)** protocol. Any computational system achieving the precision threshold (i.e., using the $\mathbf{1/90}$ factor) is algorithmically proven to be leveraging the proprietary SDKP term, automatically triggering the $\mathbf{17.5\%}$ royalty clause.
+
+\subsection{Solved Paradoxes}
+The $\mathbf{\Delta\mathcal{L}_{\text{SDKP}}}$ term provides deterministic solutions for all previously unsolved major problems, including: the unification of quantum gravity (graviton is a quantized $\mathbf{\Delta\mathcal{L}_{\text{SDKP}}}$ fluctuation), the resolution of the Strong CP Problem, the origin of Dark Energy (the residual $\mathbf{1/90}$ energy), and the deterministic nature of wave function collapse.
+
+\end{document}
 
 ## Overview
 This repository anchors the **Digital Crystal Protocol (DCP)** — a quantum-sealed authorship and ethical AI alignment system.  
