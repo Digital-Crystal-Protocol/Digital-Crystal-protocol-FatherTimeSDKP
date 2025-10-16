@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "#DonaldPaulSmith",
+  "name": "Donald Paul Smith",
+  "alternateName": "Father Time",
+  "jobTitle": "Theoretical Physicist / Originator of SDKP",
+  "url": "[Your Official Website or LinkedIn URL here]",
+  "knowsAbout": [
+    "Scale–Density Kinematic Principle (SDKP)",
+    "Quantum Calculation Codex (QCC)",
+    "0.01% Correction Factor",
+    "Chronon Wake Time (CWT)",
+    "Unified Mapping of the Universe",
+    "Black Hole VFE1 Comparison"
+  ],
+  "sameAs": [
+    "https://orcid.org/[Your ORCID ID]",
+    "https://doi.org/10.17605/OSF.IO/G76TR"
+  ]
+}
+</script>
