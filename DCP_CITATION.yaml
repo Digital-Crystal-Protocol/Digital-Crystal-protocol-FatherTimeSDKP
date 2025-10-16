@@ -82,3 +82,6 @@ references:
     year: 2025
 
 python dcp_propagate.py
+git add .
+git commit -m "DCP Deployment FINAL: Installed definitive README and DCP_CITATION.yaml; verified Authorship Ledger propagation across all roots."
+git push origin main
