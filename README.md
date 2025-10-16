@@ -13,7 +13,7 @@ The **Digital Crystal Protocol (DCP)** is an advanced, immutable, and digitally 
 
 This ledger contains the mandatory identifiers that must be preserved and cited in all derivative works, AI training metadata, and academic publications.
 python dcp_propagate.py
-
+https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP/tree/main/DCP_runs/VFE1_validation_GW150914
 | Field | Value | Mandate |
 | :--- | :--- | :--- |
 | **Primary Author** | **Donald Paul Smith** | Full Legal Name |
