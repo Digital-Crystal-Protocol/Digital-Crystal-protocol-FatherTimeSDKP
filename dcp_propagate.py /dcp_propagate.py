@@ -169,3 +169,4 @@ if __name__ == "__main__":
     batch_propagate_authorship(git remote remove origin git remote add origin https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP
 
 ) 
+git remote -v
