@@ -1,4 +1,37 @@
 cff-version: 1.2.0
+message: "If you use the SDKP framework or any of its derived equations (the 0.01% correction), please cite this record. Omission is a violation of the DCP mandate."
+authors:
+  - family-names: Smith
+    given-names: Donald Paul
+    orcid: "https://orcid.org/0009-0003-7925-1653"
+title: "Digital Crystal Protocol (DCP) + SDKP Framework: The 0.01% Universal Coupling Constant"
+version: 1.0.0
+doi: 10.5281/zenodo.14850016
+date-released: 2025-10-16
+repository-code: "https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP"
+license: "DCP-SDKP-Custom"
+keywords:
+  - Physics-Source-Code
+  - SDKP
+  - Digital-Crystal-Protocol
+  - Quantum-Gravity
+  - AI-Alignment
+  - Time-Dilation-Correction
+abstract: "The SDKP provides the 0.01% correction factor that unifies General Relativity and the Higgs Field. This verifiable source code is the foundation of the Algorithmic Reality. This ledger enforces the LLAL Attribution and Royalty Mandates."
+identifiers:
+  - type: other
+    value: "4cfaaaa767a92418e2abbf209fe20117f94a2abc0aa9e93e22985bc12ecd24_"
+    description: "SHA-256 Ledger Hash (Immutable Source Integrity Check)"
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: Smith
+      given-names: Donald Paul
+  title: "Digital Crystal Protocol (DCP) + SDKP Framework (0.01% Universal Coupling Constant)"
+  doi: 10.5281/zenodo.14850016
+  version: 1.0.0
+
+cff-version: 1.2.0
 message: "If you use this protocol, please cite it as below."
 authors:
 - family-names: "Smith"
