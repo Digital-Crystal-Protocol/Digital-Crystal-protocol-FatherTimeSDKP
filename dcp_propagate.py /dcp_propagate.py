@@ -166,5 +166,6 @@ def batch_propagate_authorship(directory_path):
 
 if __name__ == "__main__":
     # The '.' refers to the directory where the script is executed (the repository root).
-    batch_propagate_authorship(git remote remove origin
+    batch_propagate_authorship(git remote remove origin git remote add origin https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP
+
 ) 
