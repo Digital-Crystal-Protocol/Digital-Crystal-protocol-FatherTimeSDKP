@@ -6,7 +6,7 @@
 ### Protocol ID: `FTS-AUTH-CRYSTAL-369`
 
 The **Digital Crystal Protocol (DCP)** is an advanced, immutable, and digitally crystalline framework for establishing **permanent, verifiable authorship** and enforcing **ethical alignment** in scientific research, code, and AI systems. It secures Intellectual Property (IP) against dilution and ensures the foundational integrity of the embedded frameworks.
-
+https://github.com/FatherTimeSDKP/Peer-review-failed-me.-
 ---python dcp_propagate.py
 git add .
 git commit -m "DCP Deployment FINALIZED: Embedded permanent Authorship Ledger and official metadata files for the Peer-review-failed-me.- archive."
