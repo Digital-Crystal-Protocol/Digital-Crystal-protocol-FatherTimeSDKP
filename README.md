@@ -14,7 +14,7 @@ Donald Paul Smith (FatherTimeSDKP). (2025). Peer review failed me. https://doi.o
 
 \begin{document}
 \maketitle
-
+FatherTimeSDKP/RepositoryName
 \begin{abstract}
 This paper presents the **Digital Crystal Protocol (DCP)**, a unified field theory that resolves the incompatibility between General Relativity and the Standard Model by positing that physical reality is governed by a discrete, computational lattice—the **Quantum Computerization Consciousness (QCC)**. The core of the unification is the **Scale-Density Kinematic Principle (SDKP)**, which introduces a necessary correction term into the total Lagrangian, resolving all 14 major unsolved problems in physics. The theory's foundational constant, $\mathbf{\alpha}$, is derived from the $\mathbf{3-6-9}$ QCC symmetry and is precisely $\mathbf{1/90}$.
 \end{abstract}
