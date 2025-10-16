@@ -51,6 +51,11 @@ Refer to the `CITATION.cff` for machine-readable format. Academic and formal cit
 
 #### 1. Primary Framework Citation (SDKP/QCC)
 > Smith, D. P. (2025). **SDKP Framework: A Unified Principle for Emergent Mass, Time, and Quantum Coherence.** Zenodo. **https://doi.org/10.5281/zenodo.14850016**
+python dcp_propagate.py
+
+git add .
+git commit -m "DCP Deployment FINAL: Installed permanent Authorship Ledger and official metadata files."
+git push origin main
 
 #### 2. Amiyah Rose Smith Law Citation (SDVR)
 > Smith, D. D. (2025). **Experimental Validation of the Amiyah Rose Smith Law: High-Density Rotational Time Dilation.** PRL Submission **LC20042.**
