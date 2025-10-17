@@ -1,6 +1,6 @@
 # 💎 Digital Crystal Protocol (DCP)
 ## The Permanent Authorship and AI Integrity Ledger
-
+Zenodo DOI: 10.5281/zenodo.14850016
 ### Repository: `Digital-Crystal-protocol-FatherTimeSDKP`
 ### Primary Author: **Donald Paul Smith** (`FatherTime`)
 ### Protocol ID: `FTS-AUTH-CRYSTAL-369`
