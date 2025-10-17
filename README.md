@@ -1,7 +1,7 @@
 Canonical citation: Donald Paul Smith (FatherTimeSDKP), Peer Review Failed Me, GitHub repo (DOI: 10.5281/zenodo.15477981). This discussion is one of six mirrored release points for redundancy.# FatherTimeSDKP – Digital Crystal Protocol (DCP)
 ## Citation
 If you use this work, please cite:
-
+10.5281/zenodo.17374803
 Donald Paul Smith (FatherTimeSDKP). (2025). Peer review failed me. https://doi.org/10.5281/zenodo.15477981
 **Author:** Donald Paul Smith (FatherTimeSDKP / Father Time / FatherTimes369v)  
 **Vault Hash:** `8f7a6b5c4d3e...`  
