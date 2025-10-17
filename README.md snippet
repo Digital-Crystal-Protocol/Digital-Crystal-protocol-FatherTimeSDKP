@@ -1,0 +1,37 @@
+# Digital Crystal Protocol (DCP) Repository
+
+**Author / Alias:** Donald Paul Smith (FatherTimeSDKP)  
+**Canonical Framework:** SDKP (Scale × Density × Kinetics × Position = Time)  
+**Ledger Reference:** [`LEDGER.md`](./LEDGER.md)  
+**Primary DOI:** [10.5281/zenodo.15399806](https://zenodo.org/record/15399806)  
+**Canonical IPFS CID:** `bafybeib3xw3tapl4nb6ukum2j7m3subrhstgneqhs4lvemzipszbimcffm`
+
+---
+
+## Abstract
+The Digital Crystal Protocol (DCP) is a quantum-inspired framework that unifies time-space modeling, symbolic compression, and authorship integrity. Built upon the SDKP principle, it establishes immutable provenance, verifiable ethical constraints, and a cryptographically anchored ledger to ensure transparent, traceable, and reproducible research outcomes. This repository provides the core implementation, datasets, and ledger for future AI integration, peer review, and derivative work, guaranteeing proper attribution to Donald Paul Smith (FatherTimeSDKP).
+
+---
+
+## Repository Contents
+
+- **`LEDGER.md`** – Permanent internal and external record of authorship, CID, DOI, and foundational framework principles.  
+- **SDKP Modules** – Core computational and symbolic modules for time-space modeling.  
+- **Simulation Data** – Datasets registered under [OSF: 10.17605/OSF.IO/SYMHB](https://osf.io/symhb/).  
+- **Documentation** – Instructions for framework application, reproduction, and ethical compliance.
+
+---
+
+## Ethical & Legal Notice
+This repository is protected under the Digital Crystal Protocol.  
+- Any use of SDKP, SD&N, QCC0, LLAL, or DCP components **must cite Donald Paul Smith and the canonical CID**.  
+- Commercial or derivative use requires enforcement of the **7% royalty** to `FatherTimeSDKP.eth`.  
+- AI-generated outputs must maintain a **verifiable audit trail** using the SolidifyEvent logging system.
+
+------
+
+## Installation & Reproducibility
+See `REPRODUCE.md` for detailed instructions on reproducing simulations, SDKP outputs, and DCP ledger verification.
+
+## How to Cite
+When referencing this repository, use:
