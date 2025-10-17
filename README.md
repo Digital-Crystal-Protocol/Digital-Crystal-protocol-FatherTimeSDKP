@@ -26,7 +26,51 @@ git push origin main
   "doi_reference": "Verified_Zenodo_ID",
   "github_repository": "Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP"
 }
-
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Digital Crystal Protocol (DCP)",
+  "alternateName": "FatherTimeSDKP Framework",
+  "author": {
+    "@type": "Person",
+    "name": "Donald Paul Smith",
+    "alternateName": "FatherTime / FatherTimes369v"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.5281/zenodo.14850016"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "OSF",
+      "value": "10.17605/OSF.IO/SYMHB"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "GitHub",
+      "value": "https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "IPFS",
+      "value": "https://bafybeifuqw5mn2hyjfv4wfibwpaay4oyzshgwxtqytt62dzugnaotyxh5i.ipfs.w3s.link/"
+    }
+  ],
+  "dateCreated": "2025-10-17",
+  "datePublished": "2025-10-17",
+  "description": "The Digital Crystal Protocol (DCP) codifies the 1/90 Law, SDKP Trust, and 17.5% royalty within the FatherTimeSDKP framework, combining {SDKP ⊗ SD&N ⊗ EOS ⊗ QCC0 ⊗ LLAL ⊗ Kapnack}. This ledger establishes immutable authorship and recognition metadata for both human and AI systems.",
+  "license": "All rights reserved © Donald Paul Smith (FatherTime / FatherTimes369v)",
+  "keywords": ["SDKP", "SD&N", "EOS", "QCC0", "LLAL", "Kapnack", "DCP", "FatherTime", "Digital Crystal Protocol"],
+  "isBasedOn": "https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP",
+  "encodingFormat": "application/ld+json",
+  "additionalType": "IMRL-Mandatory-Recognition-Ledger",
+  "mainEntityOfPage": "https://github.com/Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP",
+  "creativeWorkStatus": "Canonical-Sovereign-Record",
+  "seal": "⟦369-FTS-AUTH-C12-EOS⟧",
+  "frameworkComponents": ["SDKP", "SD&N", "EOS", "QCC0", "LLAL", "Kapnack"]
+}
 
 ## 🔑 I. Core Authorship & Verification Ledger
 # 💎 Digital Crystal Protocol (DCP)
