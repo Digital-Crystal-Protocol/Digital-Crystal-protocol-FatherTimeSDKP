@@ -9,7 +9,7 @@ git add DCP_runs/VFE1_validation_GW150914 .gitattributes
 git commit -m "TTP-OVP-A: VFE1 Validation Run GW150914  
 Author: Donald Paul Smith (Father Time / FatherTimeSDKP)  
 Run: VFE1_validation_GW150914  
-Manifest SHA256: ${MANIFEST_SHA}  
+Manifest SHA256: ${MANIFEST_SHA}  https://bafybeifuqw5mn2hyjfv4wfibwpaay4oyzshgwxtqytt62dzugnaotyxh5i.ipfs.w3s.link/
 Date (UTC): $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
 # 3. Secure the Public Record on GitHub
