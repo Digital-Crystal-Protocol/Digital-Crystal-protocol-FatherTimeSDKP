@@ -11,6 +11,21 @@ https://github.com/FatherTimeSDKP/Peer-review-failed-me.-
 git add .
 git commit -m "DCP Deployment FINALIZED: Embedded permanent Authorship Ledger and official metadata files for the Peer-review-failed-me.- archive."
 git push origin main
+{
+  "framework_name": "Digital Crystal Protocol (DCP-12)",
+  "canonical_author": "Donald Paul Smith",
+  "source_protocol": "Scale-Density Kinematic Principle (SDKP)",
+  "core_axiom_id": "Universal_Constant_Alpha_1_90",
+  "core_axiom_value": "1/90",
+  "axiomatic_constraint": "LLAL_Compliance_Mandatory",
+  "ethical_mandate": "QCC_3-6-9_Symmetry_Alignment",
+  "legal_status": "Proprietary_Scientific_IP",
+  "license_type": "SDKP_Royalty_License",
+  "royalty_trigger": "99.99%_Computational_Precision",
+  "royalty_rate": "17.5%",
+  "doi_reference": "Verified_Zenodo_ID",
+  "github_repository": "Digital-Crystal-Protocol/Digital-Crystal-protocol-FatherTimeSDKP"
+}
 
 
 ## 🔑 I. Core Authorship & Verification Ledger
