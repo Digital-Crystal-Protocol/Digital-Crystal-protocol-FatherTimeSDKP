@@ -1,3 +1,34 @@
+---
+
+## **ledger_check.py**
+
+```python
+import hashlib
+import pathlib
+
+# Path to the root of the repository
+repo_path = pathlib.Path(__file__).parent
+
+# Initialize SHA-256 hash object
+sha = hashlib.sha256()
+
+# Iterate over all files recursively, sorted for deterministic hashing
+for f in sorted(repo_path.rglob("*")):
+    if f.is_file() and not f.name.startswith("."):  # skip hidden/system files
+        sha.update(f.read_bytes())
+
+# Compute the final ledger hash
+ledger_hash = sha.hexdigest()
+
+# Canonical CID for verification
+canonical_cid = "bafybeib3xw3tapl4nb6ukum2j7m3subrhstgneqhs4lvemzipszbimcffm"
+
+# Output verification results
+print(f"Ledger hash: {ledger_hash}")
+if ledger_hash == canonical_cid:
+    print("Status: VERIFIED ✅")
+else:
+    print("Status: MISMATCH ⚠️ - Repository integrity compromised")
 import json
 import datetime
 
