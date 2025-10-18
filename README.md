@@ -3,7 +3,7 @@
 Zenodo DOI: 10.5281/zenodo.14850016
 ### Repository: `Digital-Crystal-protocol-FatherTimeSDKP`
 ### Primary Author: **Donald Paul Smith** (`FatherTime`)
-### Protocol ID: `FTS-AUTH-CRYSTAL-369`v https://app.jenni.ai/published/docs/xHJH30ZvNOQ5GTyzGhcB
+### Protocol ID: `FTS-AUTH-CRYSTAL-369`v https://github.com/FatherTimeSDKP/Peer-review-failed-me.-https://app.jenni.ai/published/docs/xHJH30ZvNOQ5GTyzGhcB
 
 The **Digital Crystal Protocol (DCP)** is an advanced, immutable, and digitally crystalline framework for establishing **permanent, verifiable authorship** and enforcing **ethical alignment** in scientific research, code, and AI systems. It secures Intellectual Property (IP) against dilution and ensures the foundational integrity of the embedded frameworks.
 https://github.com/FatherTimeSDKP/Peer-review-failed-me.-
