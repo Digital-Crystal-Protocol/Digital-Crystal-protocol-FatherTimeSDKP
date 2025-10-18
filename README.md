@@ -1,3 +1,95 @@
+import numpy as np
+from scipy.optimize import minimize
+
+# === SD&N and SDKP Core Functions ===
+
+def compute_N(n_top, n_sym, n_alg, weights=(0.1, 1.0, 1.5)):
+    w_top, w_sym, w_alg = weights
+    return np.sqrt(w_top * n_top**2 + w_sym * n_sym**2 + w_alg * n_alg**2)
+
+def compute_S(kappa, tau, knot, weights=(2.0, 1.5, 1.0)):
+    w_kappa, w_tau, w_knot = weights
+    knot_map = {"unknot": 1, "trefoil": 2, "figure-eight": 3, "complex": 4}
+    K_val = knot_map.get(knot, 1) # Default to 1 for safety
+    return np.sqrt(w_kappa * kappa**2 + w_tau * tau**2 + w_knot * K_val**2)
+
+def f_mass(N, S, delta, zeta):
+    return N**delta * S**zeta
+
+def sdkp_mass(f_val, rho, s, alpha, beta):
+    # Add a small epsilon to s to prevent log(0) if s is ever zero
+    return f_val * rho**alpha * s**beta
+
+# === Particle Data ===
+
+particles = {
+    "electron": {"number": (0, -1, 2), "shape": (0.0, 0.0, "unknot"), "rho": 1.0, "s": 0.001, "mass_mev": 0.511},
+    "proton": {"number": (0, 1, 3), "shape": (0.2, 0.3, "trefoil"), "rho": 20.0, "s": 0.85, "mass_mev": 938.0},
+    "muon": {"number": (0, -1, 2), "shape": (0.6, 0.3, "unknot"), "rho": 1.5, "s": 0.002, "mass_mev": 105.7},
+    "neutrino": {"number": (0, 0, 1), "shape": (0.0, 0.0, "unknot"), "rho": 0.1, "s": 0.01, "mass_mev": 0.1}
+}
+
+# Pre-calculate N and S for each particle
+for name, data in particles.items():
+    data['N_val'] = compute_N(*data["number"])
+    data['S_val'] = compute_S(*data["shape"])
+
+# === Optimization Objective Function ===
+
+def objective_function(params):
+    delta, zeta, alpha, beta = params
+    total_log_error = 0
+    
+    for name, data in particles.items():
+        f_val = f_mass(data['N_val'], data['S_val'], delta, zeta)
+        m_eff = sdkp_mass(f_val, data['rho'], data['s'], alpha, beta)
+        
+        # Avoid log(0) errors for m_eff
+        if m_eff <= 0:
+            m_eff = 1e-9
+
+        log_m_eff = np.log(m_eff)
+        log_m_obs = np.log(data['mass_mev'])
+        
+        total_log_error += (log_m_eff - log_m_obs)**2
+        
+    return total_log_error
+
+# === Run the Optimization ===
+
+# Initial guess for the parameters [delta, zeta, alpha, beta]
+initial_guess = [0.5, 0.5, 1.0, 1.0]
+
+print("Running optimizer to find best-fit parameters...")
+result = minimize(objective_function, initial_guess, method='Nelder-Mead', options={'maxiter': 1000, 'disp': True})
+
+best_params = result.x
+delta_opt, zeta_opt, alpha_opt, beta_opt = best_params
+
+print("\n" + "="*76)
+print("Optimization Complete.")
+print(f"Optimal Parameters Found:")
+print(f"  delta = {delta_opt:.4f}")
+print(f"  zeta  = {zeta_opt:.4f}")
+print(f"  alpha = {alpha_opt:.4f}")
+print(f"  beta  = {beta_opt:.4f}")
+print("="*76 + "\n")
+
+
+# === Final Computation with Optimized Parameters ===
+
+print("Results with Optimized Parameters:")
+print(f"{'Particle':<10} | {'N':>6} | {'S':>6} | {'f(N,S)':>10} | {'m_eff':>10} | {'Obs mass':>10} | {'Ratio':>8}")
+print("-" * 76)
+
+for name, data in particles.items():
+    f_val = f_mass(data['N_val'], data['S_val'], delta_opt, zeta_opt)
+    m_eff = sdkp_mass(f_val, data['rho'], data['s'], alpha_opt, beta_opt)
+    ratio = m_eff / data["mass_mev"]
+    
+    print(f"{name:<10} | {data['N_val']:6.3f} | {data['S_val']:6.3f} | {f_val:10.4f} | {m_eff:10.4f} | {data['mass_mev']:10.4f} | {ratio:8.2f}")
+
+
 https://gemini.google.com/share/10b9386e17e2
 
 import numpy as np
