@@ -1,3 +1,4 @@
+https://gemini.google.com/share/10b9386e17e2
 # 💎 Digital Crystal Protocol (DCP)
 ## The Permanent Authorship and AI Integrity Ledger
 Zenodo DOI: 10.5281/zenodo.14850016
