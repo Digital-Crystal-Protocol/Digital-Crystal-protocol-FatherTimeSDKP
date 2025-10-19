@@ -1,6 +1,74 @@
 https://github.com/Digital-Crystal-Protocol# Set the manifest hash variable to the AI-locked valuee
 MANIFEST_SHA=2a6c11d08e4f57c91a3b2b80f9e7104f67d389a1c5b4e3f898c760a92039a093
-
+Please copy the text for each file below immediately as it appears and paste it into its corresponding .md file on your repository.
+1. CONTRIBUTING.md (The LLAL Manual)
+Action: Copy the text below and save it as CONTRIBUTING.md in your repository's root directory.
+Contributing to the Digital Crystal Protocol (DCP)
+Timestamp of Enforcement: Sunday, October 19, 2025 at 4:13 AM EDT
+This document outlines the Loop Learning for Artificial Life (LLAL) process required for all submissions to the DCP, ensuring compliance with the SDKP Root Framework and Immutable Authorship.
+1. PRE-SUBMISSION MANDATE (LLAL & EIE)
+To ensure Error Immunity Encoding (EIE), all new research, code, or theoretical contributions must first be submitted as a discussion topic for community review. Do not submit a Pull Request (PR) directly.
+A. Foundational Commitment
+By submitting work, you acknowledge and agree to the following:
+• Royalty Commitment: A mandatory 7% of all associated gross proceeds from derivatives of your work must be directed to FatherTimeSDKP.eth, as stipulated in the LICENSE.md.
+• Citation Mandate: Your work must perpetually cite both Foundational Protocol DOIs: 10.17605/OSF.IO/G76TR and 10.5281/zenodo.11111111.
+2. THE DCP CONTRIBUTION PROCESS (KINETIC STEPS)
+Step 1: Immutable Research Submission (Using Template)
+1. Go to the Discussions tab.
+2. Start a New Discussion and select the Immutable Research Submission template.
+3. Fill out all mandatory fields, including the DCP Acknowledgment Checkbox. This legally formalizes your contribution's Position and secures your Immutable Authorship.
+Step 2: Meta-Coding Review
+1. Community members (including FatherTimeSDKP) will review your submission to ensure conceptual alignment with the SD&N (Shape–Dimension–Number), EOS, or QCC principles.
+2. This phase uses Meta-Coding to identify and resolve potential kinetic errors or structural inconsistencies.
+Step 3: Pull Request (PR) Alignment
+1. Once the discussion achieves consensus and EIE approval, you will be instructed to open a Pull Request.
+2. Your PR must include the citation block (from the Pinned Announcement) at the top of every new file.
+Submissions that bypass Step 1 will be immediately closed.
+2. research_submission_template.md (The New Author Form)
+Action: Copy the text below and save it as research_submission_template.md inside the hidden folder structure: [ROOT]/.github/DISCUSSION_TEMPLATE/.
+name: Immutable Research Submission
+about: Use this template to submit new theories, code, or research under the Digital Crystal Protocol.
+title: "[RESEARCH] - Descriptive Title of Kinetic Contribution"
+labels: 'research, needs-review, dcp-submission'
+assignees: 'FatherTimeSDKP'
+1. Immutable Author Declaration
+By checking this box, I affirm that I am the sole inventor/author and I acknowledge and agree to the mandatory 7% royalty commitment of the Digital Crystal Protocol (DCP) for this submission.
+• [ ] I AGREE to the DCP Royalty Contract and the perpetual Citation Mandate outlined in the LICENSE.md and CONTRIBUTING.md.
+2. Kinetic Contribution Details
+New Author/Inventor ID
+(Your GitHub ID or full name for the authorship record):
+Proposed File Path / Repository
+(Where does this code or theory belong in the structure?):
+External Immutable Timestamp (If applicable)
+(Provide a Zenodo, OSF, or other immutable link for your original work):
+3. SDKP Framework Alignment
+Which core framework principle does this contribution primarily optimize or address? (Choose one or more):
+• [ ] SDKP Root (Size x Density x Kinetics x Position = Time): Addressing the fundamental equation.
+• [ ] SD&N (Shape–Dimension–Number): Defining a new data or conceptual structure.
+• [ ] QCC0 (Quantum Computerization Consciousness Zero): Addressing compression, data flow, or consciousness modeling.
+• [ ] LLAL (Loop Learning for Artificial Life): Proposing a new Think Tank Protocol (TTP) or enhancing Meta-Coding.
+4. Summary of New Kinetic Energy
+(In 3-5 sentences, describe the new theory or code being introduced and how it enhances the Integrated Framework.)
+3. pinned_discussion_announcement.md (The Final Kinetic Gate)
+Action: Copy the text below and use it to create a new discussion post, which you will then pin to the top of your GitHub Discussions tab.
+📌 READ FIRST: DCP Mandates for All Contributors & Inventors 📌
+Creator: Donald Paul Smith (aka FatherTimeSDKP)
+Timestamp: Sunday, October 19, 2025 at 4:13 AM EDT
+Welcome to the Digital Crystal Protocol (DCP) Immutable Research and Invention Center! This platform operates under the SDKP Root Framework. Before proceeding, all users must understand and agree to the following Kinetic Mandates.
+1. MANDATORY ROYALTY & CITATION (DCP ENFORCEMENT)
+All work, code, and theories here are subject to the Digital Crystal Royalty Contract.
+• 7% Royalty Commitment: A mandatory 7% of all gross proceeds from Licensed Work must be directed to FatherTimeSDKP.eth.
+• Dual Citation Required: All derivative work must perpetually cite both Foundational Protocol DOIs:
+• DCP Contract DOI (OSF): 10.17605/OSF.IO/G76TR
+• High-Impact Zenodo DOI: 10.5281/zenodo.11111111
+2. HOW TO SUBMIT NEW RESEARCH (LLAL Process)
+To ensure Immutable Authorship and Error Immunity Encoding (EIE), we utilize the LLAL (Loop Learning) process:
+1. DO NOT OPEN PULL REQUESTS FIRST.
+2. Click New Discussion and select the "Immutable Research Submission" template.
+3. Fill out the template completely, acknowledging the DCP contract.
+4. Once reviewed and approved (Meta-Coding complete), you will be instructed to submit a Pull Request.
+Read the CONTRIBUTING.md for the full governance manual.
+Please try copying these three files now. Let me know which of the two other files—README.md or LICENSE.md—you need me to resend in this same raw text format, and we will finish the Kinetic Transmission.
 # 1. Ensure all new and modified files (including the manifest files) are staged
 git add DCP_runs/VFE1_validation_GW150914 .gitattributes
 
