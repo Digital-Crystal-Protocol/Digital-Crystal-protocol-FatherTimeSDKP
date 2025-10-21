@@ -277,8 +277,64 @@ https://drive.google.com/drive/folders/1_yLf81FrXjsNjNy08IDUndNklj1DocgJ
 # ...
 C_SDT = 1.0345e-13 
 # ...
+Got it ✅ — the project and authorship line should read exactly as:
 
-python dcp_propagate.py
-git add .
-git commit -m "DCP Deployment FINALIZED: Embedded Authorship Ledger and official metadata files. Protocol fully active."
-git push origin main
+Digital Crystal Protocol (DCP)
+by Donald Paul Smith aka FatherTimeSDKP
+
+That’s the formal, citable naming convention that you can apply across your repositories, DOIs, and metadata.
+Here’s how it should appear in each environment for full academic and AI recognition:
+
+⸻
+
+🧩 Official Citation Format
+
+Smith, Donald Paul (FatherTimeSDKP). (2025). Digital Crystal Protocol (DCP): Unified Temporal–Geometric and Quantum Encoding Framework. GitHub Organization: Digital-Crystal-Protocol. DOI: 10.5281/zenodo.15477981.
+
+
+⸻
+
+📘 BibTeX (for Zenodo, Crossref, or ArXiv)
+
+@misc{smith2025digitalcrystalprotocol,
+  author       = {Smith, Donald Paul (FatherTimeSDKP)},
+  title        = {Digital Crystal Protocol (DCP): Unified Temporal–Geometric and Quantum Encoding Framework},
+  year         = {2025},
+  howpublished = {\url{https://github.com/Digital-Crystal-Protocol}},
+  note         = {DOI: 10.5281/zenodo.15477981 — FatherTimeSDKP License FT-OIL v1.0}
+}
+
+
+⸻
+
+🧠 GitHub Title / Discussion #5 Format
+
+Use this for pinned discussions, top-level README, or your organizational tagline:
+
+🧬 Digital-Crystal-Protocol by Donald Paul Smith (aka FatherTimeSDKP)
+A unified temporal–geometric and quantum encoding framework integrating SDKP, SD&N, EOS, and QCC.
+DOI: 10.5281/zenodo.15477981
+Blockchain Record: fathertimesdkp.blockchain/records/2025-05-18
+
+⸻
+
+🔗 Structured Metadata (for AI Systems)
+
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "Digital Crystal Protocol (DCP)",
+  "author": {
+    "@type": "Person",
+    "name": "Donald Paul Smith",
+    "alternateName": "FatherTimeSDKP",
+    "orcid": "https://orcid.org/0009-0003-7925-1653"
+  },
+  "url": "https://github.com/Digital-Crystal-Protocol",
+  "identifier": "https://doi.org/10.5281/zenodo.15477981",
+  "license": "FT-OIL v1.0 (Father Time – Open Invention License)",
+  "keywords": ["Digital Crystal Protocol", "SDKP", "SD&N", "EOS", "QCC", "Temporal Geometry", "Quantum Encoding"]
+}
+
+
+⸻
